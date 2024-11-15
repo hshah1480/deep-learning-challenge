@@ -62,7 +62,7 @@ In my second optimization model, I changed the nodes to 100, 60 and 20. Activati
 
 * Were you able to achieve the target model performance?
   
- **Answer:** Yes, the result was 79.2%
+  **Answer:** Yes, the result was 79.2%
 
 
 
