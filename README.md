@@ -20,44 +20,37 @@ The aim of this investigation is to develop a binary classifier employing a deep
 ## Original Model
 
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-
- **Answer:** 2 hidden layers were used in the original model of 80 and 30 neurons respectively. Activation function of "ReLU" were used for both. The outer layer activatuon was "Sigmoid". 100 Epochs were used to train the model.
+  **Answer:** 2 hidden layers were used in the original model of 80 and 30 neurons respectively. Activation function of "ReLU" were used for both. The outer layer activatuon was "Sigmoid". 100 Epochs were used to train the model.
 
 
 * Were you able to achieve the target model performance?
-
- **Answer:** No, the result was 72.4%
+  **Answer:** No, the result was 72.4%
 
 
 # Optimization model 1
 
 * What steps did you take in your attempts to increase model performance?
-
- **Answer:**In my first optimization model, I tried adding another hidden layer and increasing the nodes to 100, 30 and 10. Activation of "ReLU" was used on the first layer and the "Sigmoid" on the 2nd & 3rd layer.
+  **Answer:** n my first optimization model, I tried adding another hidden layer and increasing the nodes to 100, 30 and 10. Activation of "ReLU" was used on the first layer and the "Sigmoid" on the 2nd & 3rd layer.
 
 * Were you able to achieve the target model performance?
-
- **Answer:** No, the result was 72.8%
+  **Answer:** No, the result was 72.8%
 
 
 # Optimization model 2
 
 * What steps did you take in your attempts to increase model performance?
-
- **Answer:** I dropped 'SPECIAL_CONSIDERATIONS' column along with 'EIN' and 'NAME'.
+  **Answer:** I dropped 'SPECIAL_CONSIDERATIONS' column along with 'EIN' and 'NAME'.
 I changed the 'APPLICATION_TYPE' cut-off from 500 to 700.
 In my second optimization model, I changed the nodes to 100, 60 and 20. Activation of "ReLU" on the first and second layer and "Sigmoid" 3rd.
 
 * Were you able to achieve the target model performance?
-
- **Answer:** No, the result was 72.5%
+  **Answer:** No, the result was 72.5%
 
 
 # Optimization model 3
 
 * What steps did you take in your attempts to increase model performance?
-
- **Answer:** I dropped 'SPECIAL_CONSIDERATIONS' 'EIN' and 'STATUS' columns.
+  **Answer:** I dropped 'SPECIAL_CONSIDERATIONS' 'EIN' and 'STATUS' columns.
  I chose a cut-off value for 'NAME' of 4 which reduced the number of records to 475. In my third optimization model, I changed the nodes to 25, 15 and 3. Activation of "ReLU" on the first layer and "Sigmoid" on the second and third.
 
 * Were you able to achieve the target model performance?
